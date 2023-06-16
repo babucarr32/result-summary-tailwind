@@ -8,16 +8,16 @@ function App() {
 
   return (
     <>
-      <div className="flex rounded-3xl bg-white overflow-hidden font-hanken">
-        <div className="p-10 text-center bg-gradient-to-b from-indigo-900 to-indigo-950 w-96">
-          <p>Your Result</p>
-          <div className="w-60 flex justify-center items-center mx-auto m-10 h-60 rounded-full bg-gradient-to-b from-indigo-950 to-indigo-900">
+      <div className=" block rounded-none sm:flex rounded-3xl bg-white overflow-hidden font-hanken">
+        <div className="p-10 rounded-br-[35px] rounded-bl-[35px] text-center bg-gradient-to-b from-indigo-900 to-indigo-950 w-96">
+          <p className="font-extrabold text-xl">Your Result</p>
+          <div className="w-60 flex justify-center items-center mx-auto m-5 h-60 rounded-full bg-gradient-to-b from-indigo-950 to-indigo-900">
             <p>
               <span className="text-5xl font-bold">76</span> <br />
               of 100{" "}
             </p>
           </div>{" "}
-          <div>
+          <div className="mb-5">
             <p className="font-bold text-2xl">Great</p>
           </div>
           <p>
@@ -61,11 +61,11 @@ function App() {
                   <img src="/assets/images/icon-visual.svg" alt="" />
                   <p className="text-indigo-900">Visual</p>
                 </div>
-                <p>
-                  <span className="font-bold">72</span> /100
+                <p className="text text-slate-600">
+                  <span className="font-bold text-black">72</span> /100
                 </p>
               </li>
-              <li className="text-white bg-slate-800 p-3 rounded-full w-full flex items-center gap-80 mb-3 justify-center font-extrabold">
+              <li className="text-white bg-slate-800 p-3 rounded-full flex items-center gap-80 mb-3 justify-center font-extrabold hover:bg-gradient-to-b from-indigo-900 to-indigo-950 ">
                 <p>Continue</p>
               </li>
             </ul>
